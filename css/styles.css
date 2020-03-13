@@ -1,0 +1,129 @@
+body {
+  background-color: #eafffd;
+  text-align: center;
+}
+
+hr {
+  border-color: #95adb6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 50px;
+}
+
+#profile img {
+  height: 200px;
+  border-radius: 100%;
+  margin: 30%;
+}
+
+h1,
+h3 {
+  color: navy;
+}
+
+#navbar {
+  background-color: #abdafc;
+  font-weight: bold;
+  color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background: transparent;
+}
+
+#profile {
+  background-color: #abdafc;
+  height: 78vh;
+  line-height: 2;
+  width: 100%;
+  padding: 5% 10% 0% 10%;
+}
+
+#summary {
+  margin-left: 70px;
+  width: 80%;
+}
+#summary h4 {
+  padding-left: 0;
+}
+
+#summary > p,
+#summary > h4 {
+  text-align: left;
+  padding-left: 10%;
+  margin: 3% 0% 3% 0%;
+  width: 90%;
+}
+
+#projects img {
+  height: auto;
+  width: auto;
+}
+
+.project {
+  padding: 3%;
+}
+
+.carousel {
+  /* margin: 10%; */
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.carousel-inner > .carousel-item > img {
+  margin: 0 auto;
+  height: 600px;
+}
+
+#project1 > .carousel-inner > .carousel-item > img {
+  margin: 0 auto;
+  height: 60vh;
+
+  padding: 0 10% 0 10%;
+}
+
+.chain {
+  content: '\foc1';
+}
+
+h6 {
+  margin-top: 2%;
+}
+
+h4 {
+  width: 75%;
+  margin: auto;
+  line-height: 2;
+  padding: 1% 0 1% 0;
+}
+
+#welcome {
+  padding: 20%;
+  height: 100vh;
+  width: auto;
+  background-color: #abdafc;
+}
+
+#welcome h1 {
+  line-height: 2;
+}
+
+footer .fas {
+  margin: 0% 1% 1%;
+  padding: 3%;
+}
+
+footer .fab {
+  margin: 0% 1% 1%;
+  padding: 3%;
+}
+
+footer h3 {
+  margin: 5% 0 0 0;
+}
